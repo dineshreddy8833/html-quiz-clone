@@ -1,0 +1,110 @@
+HTML Lists:
+
+List: if we want to show a list of items, we use html lists.
+
+
+there are two types of html lists:
+
+1. ordered list:
+
+2. unordered list
+
+
+ordered list:
+
+   default order for ordered list is : numbers.
+
+problem statement :
+
+create a quiz page that should contain multiple choice questions.
+
+solution:
+
+<html>
+   <head>
+       <style>
+           
+           h1{
+               text-align: center;
+           }
+
+
+       </style>
+     
+   </head>
+   <body>
+
+     <h1>online quiz-HTML</h1>
+
+     <hr>
+
+     <h2>Instructions</h2>
+
+     <ol>
+    <li>This test is a basic quiz on html</li>
+    <li>This contains 10 questions</li>
+    <li>All questions are multiple choice questions</li>
+    <li>No negative marking</li>
+    <li>Automated timer</li>
+     </ol>
+
+     <hr>
+
+      <ol>
+         <li>what is the latest version of html</li>
+           <input type="radio" name="q1"> HTML 5<br>
+           <input type="radio" name="q1"> HTML 4<br>
+           <input type="radio" name="q1"> HTML 3<br>
+           <input type="radio" name="q1"> HTML 2<br>
+
+           <br>
+
+        <li>is html a programme language</li>
+           <input type="radio" name="q2"> yes<br>
+           <input type="radio" name="q2"> no <br>
+
+           <br>
+
+        <li>can we add css to html</li>
+            <input type="radio" name="q3">yes<br>
+            <input type="radio" name="q3">No<br>
+
+            <br>
+            
+            
+
+        <li>What does HTML stand for?</li>
+            <input type="radio"  name="q4"> Hyperlink and Text Markup Langugage<br>
+            <input type="radio" name = "q4"> Hyper Hext Markup Language<br>
+            <input type="radio" name="q4">Home Tool Markup Language<br>
+
+            <br>
+        <li>What is the correct HTML element for inserting a line break?</li>      
+            <input type="radio" name="q5"> &ltbr&gt <br>
+            <input type="radio" name="q5">  &ltbreak&gt<br>
+            <input type="radio" name="q5"> &ltbl&gt<br>
+
+            <br>
+
+            <button>submit test</button>
+        
+ 
+ 
+  
+
+
+      </ol>
+
+
+   </body>
+
+
+
+</html>
+
+HTML file paths:
+
+there are two types of file paths:
+
+1.absolute: complete path
+2.relative paths: partial path from current directory
